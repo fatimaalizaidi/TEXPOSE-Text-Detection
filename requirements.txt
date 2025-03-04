@@ -1,0 +1,6 @@
+fastapi
+fastapi[standard]
+pydantic
+torch
+transformers
+numpy
