@@ -69,9 +69,3 @@ def classify_text(text, model_ai_hum, model_llm, tokenizer):
             predicted_label_llm = "Gemini"
 
     return {"type": predicted_label, "llm": predicted_label_llm if predicted_label_llm else "N/A"}
-
-    
-# Example usage:
-# abstract = df["Abstract"].values[39000]
-# result = classify_abstract(abstract, model_ai_hum, model_llm, tokenizer)
-# print(result)
